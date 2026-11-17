@@ -3,7 +3,7 @@ package fr.greta.soutenance2.modele;
 public class Vehicule {
     private final String modele;
     private final String energie;
-    private final String Kms;
+    private final String kms;
     private final String prix;
     private final String annee;
     private final String lieu;
@@ -13,7 +13,7 @@ public class Vehicule {
     public Vehicule(String modele, String energie, String kms, String prix, String annee, String lieu, String transmission) {
         this.modele = modele;
         this.energie = energie;
-        Kms = kms;
+        this.kms = kms;
         this.prix = prix;
         this.annee = annee;
         this.lieu = lieu;
@@ -23,7 +23,7 @@ public class Vehicule {
     public Vehicule(String modele, String energie, String kms, String prix, String annee, String lieu, String transmission, String photo) {
         this.modele = modele;
         this.energie = energie;
-        Kms = kms;
+        this.kms = kms;
         this.prix = prix;
         this.annee = annee;
         this.lieu = lieu;
@@ -40,7 +40,7 @@ public class Vehicule {
     }
 
     public String getKms() {
-        return Kms;
+        return kms;
     }
 
     public String getPrix() {
@@ -68,7 +68,7 @@ public class Vehicule {
         return "Vehicule{" +
                 "modele='" + modele + '\'' +
                 ", energie='" + energie + '\'' +
-                ", Kms='" + Kms + '\'' +
+                ", kms='" + kms + '\'' +
                 ", prix='" + prix + '\'' +
                 ", annee='" + annee + '\'' +
                 ", lieu='" + lieu + '\'' +
