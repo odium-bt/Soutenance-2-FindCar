@@ -2,8 +2,6 @@ package fr.greta.soutenance2.service;
 
 import fr.greta.soutenance2.exceptions.ScrapingException;
 import fr.greta.soutenance2.modele.Vehicule;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.htmlunit.WebClient;
 import org.htmlunit.html.HtmlElement;
 import org.htmlunit.html.HtmlPage;
@@ -14,8 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ScrapingService {
-    private static final Log log = LogFactory.getLog(ScrapingService.class);
+public class ScrapingService extends Service {
 
     public ScrapingService() {
     }
