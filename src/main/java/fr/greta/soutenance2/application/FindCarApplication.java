@@ -11,7 +11,7 @@ public class FindCarApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(FindCarApplication.class.getResource("/fr/greta/soutenance2/accueil-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 818, 646);
         stage.setTitle("Find'Car");
         stage.setScene(scene);
         stage.sizeToScene();
